@@ -1,0 +1,33 @@
+/* navbar */
+
+.menu-itms{
+    color: black !important;
+}
+
+nav ul li a:hover{
+     background-color: #d0cdff;
+}
+
+@media screen and (max-width: 575px){
+    
+    nav img{
+        width: 100px;
+    }
+
+    .menu-itms{
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 360px){
+
+    nav img{
+        width: 70px;
+    }
+
+    .menu-itms{
+        font-size: 10px;
+    }
+
+}
