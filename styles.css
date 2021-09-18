@@ -1,5 +1,9 @@
 /* navbar */
 
+nav{
+    font-family: 'Raleway', sans-serif;
+}
+
 .menu-itms{
     color: black !important;
 }
@@ -30,4 +34,23 @@ nav ul li a:hover{
         font-size: 10px;
     }
 
+}
+
+/* body */
+
+/* body head */
+.body-head h2{
+    font-family: 'Raleway', sans-serif;
+}
+
+.body-head img{
+    width: 100%;
+}
+
+.btn{
+    background-color: hsl(224, 93%, 58%) !important;
+}
+
+#email{
+    outline: none;
 }
