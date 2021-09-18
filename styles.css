@@ -54,3 +54,12 @@ nav ul li a:hover{
 #email{
     outline: none;
 }
+
+@media screen and (max-width: 360px){
+
+    .flex-col-rev{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+}
