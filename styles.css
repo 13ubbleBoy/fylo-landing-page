@@ -157,3 +157,7 @@ nav ul li a:hover{
     cursor: pointer;
     color: hsl(224, 93%, 58%);
 }
+
+.button-hov:hover{
+    filter: brightness(150%);
+}
