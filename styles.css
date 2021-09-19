@@ -24,7 +24,7 @@ nav ul li a:hover{
 
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 440px){
 
     nav img{
         width: 70px;
@@ -60,6 +60,50 @@ nav ul li a:hover{
     .flex-col-rev{
         display: flex;
         flex-direction: column-reverse;
+    }
+
+}
+
+
+/* body mid */
+.body-mid h2{
+    font-family: 'Raleway', sans-serif;
+}
+
+.body-mid #iimmgg img{
+    width: 100%;
+}
+
+.see-how{
+    color:  hsl(170, 45%, 43%);
+}
+
+.hov2 a:hover{
+    color: hsl(170, 45%, 43%);
+    filter: brightness(120%);
+}
+
+.body-mid .avatar{
+    width: 30px;
+    height: 30px;
+}
+
+.body-mid .size h5{
+    font-size: 10px;
+}
+
+.body-mid .size p{
+    font-size: 8px;
+}
+
+@media screen and (max-width: 360px){
+
+    .ffff h2{
+        font-size: 18px;
+    }
+
+    .ffff p{
+        font-size: 16px;
     }
 
 }
