@@ -107,3 +107,53 @@ nav ul li a:hover{
     }
 
 }
+
+/* body footer */
+.body-fc{
+    background-color: hsl(238, 22%, 44%);
+}
+
+.body-fc .btn-text{
+    font-size: 16px;
+}
+
+.body-fc h3{
+    font-family: 'Raleway', sans-serif;
+}
+
+.body-fc p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* .body-fc #email{
+    border-radius: 5px;
+} */
+
+@media screen and (max-width: 440px){
+
+    .body-fc p{
+        font-size: 16px;
+    }
+
+}
+
+
+/* footer */
+.footer-con{
+    background-color: hsl(243, 87%, 12%);
+}
+
+.footer-logo img{
+    width: 170px;
+}
+
+
+.social h3:hover{
+    cursor: pointer;
+    color: hsl(224, 93%, 58%);
+}
+
+.social p:hover{
+    cursor: pointer;
+    color: hsl(224, 93%, 58%);
+}
