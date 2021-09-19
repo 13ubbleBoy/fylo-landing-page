@@ -8,8 +8,12 @@ nav{
     color: black !important;
 }
 
-nav ul li a:hover{
-     background-color: #d0cdff;
+nav ul li{
+    transition: transform 0.3s;
+}
+
+nav ul li:hover{
+    transform: scale(1.2);
 }
 
 @media screen and (max-width: 575px){
@@ -159,5 +163,9 @@ nav ul li a:hover{
 }
 
 .button-hov:hover{
+    filter: brightness(120%);
+}
+
+.button-hov1:hover{
     filter: brightness(150%);
 }
